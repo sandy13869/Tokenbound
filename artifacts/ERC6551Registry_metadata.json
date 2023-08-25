@@ -1,0 +1,193 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "InitializationFailed",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					}
+				],
+				"name": "AccountCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					}
+				],
+				"name": "account",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "initData",
+						"type": "bytes"
+					}
+				],
+				"name": "createAccount",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TokenBound/ERC6551Registry.sol": "ERC6551Registry"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Create2.sol": {
+			"keccak256": "0x6e00f269073ffc4350e56b7e8153c9092d5f70bfba423299990514183101ef89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8dc5ff5c204604be7594ce2fa9100a0638f22b5aada6ebec1e165b0f50a48447",
+				"dweb:/ipfs/QmfH7uWphPrq8jqwGvyh4pFnLEgEPmLwyGV2Bvx1Acjggh"
+			]
+		},
+		"TokenBound/ERC6551Registry.sol": {
+			"keccak256": "0x1ff000ac03d28dc54cdb88c13cac1631aa19b312d4e2869797d3d7588b2d254c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ffb7ba77be1df683d328a362f77241abeb18ee13c6c93d48657a33441122ff4",
+				"dweb:/ipfs/QmR2jMrPB4mXhVD4oFBFwoYNwdxtY8yV8N9u1pfSyZkDkH"
+			]
+		},
+		"TokenBound/interfaces/IERC6551Registry.sol": {
+			"keccak256": "0x2d6216b67797011544d3fa2b7a89d316d09161b87a6288762c3c8ec73cd8d662",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b9996671d61612920c8911b9c311da4a15846212004e1c1ee698748c56d430aa",
+				"dweb:/ipfs/QmUjBczZLhzDLEngnts4pzeqfMwsHN4tvbDr7oE7bj9sKb"
+			]
+		}
+	},
+	"version": 1
+}
